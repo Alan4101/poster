@@ -1,4 +1,3 @@
-import { Grid } from "@mui/material";
 import type { FC } from "react";
 
 export interface FooterProps {
@@ -6,5 +5,5 @@ export interface FooterProps {
 }
 
 export const Footer: FC<FooterProps> = ({ className }) => {
-  return <Grid className={className}>Footer</Grid>;
+  return <div className="">Footer</div>;
 };
